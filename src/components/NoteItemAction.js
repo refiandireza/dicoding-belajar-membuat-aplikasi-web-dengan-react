@@ -6,8 +6,8 @@ function NoteItemAction({
 }) {
   return (
     <div className="note-item__action">
-      <button id={id} onClick={() => onDelete(id)}><BsFillTrashFill /></button>
-      <button id={id} onClick={() => archiveClick(id)}>{isArchive ? <BsBookmarkFill /> : <BsBookmark />}</button>
+      <button id={id} onClick={() => onDelete(id)} aria-label="Delete Button"><BsFillTrashFill /></button>
+      <button id={id} onClick={() => archiveClick(id)} aria-label="Archive Button">{isArchive ? <BsBookmarkFill /> : <BsBookmark />}</button>
     </div>
   );
 }
