@@ -7,6 +7,6 @@ This is my submission task from Dicoding Indonesia in the form of building a web
 ![rating](/screenshot/rating.png)
 
 ## Demo
-[Notes App](https://refiandi-notes-app.netlify.app/)
+Here link to demo projects: [Notes App](https://refiandi-notes-app.netlify.app/)
 
 ![preview](/screenshot/preview.png)
