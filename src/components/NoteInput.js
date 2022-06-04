@@ -110,8 +110,8 @@ class NoteInput extends React.Component {
           {errorBodyText || successMessage}
 
           <div className="note-btn-input__container">
-            <button type="submit" className="note-btn__submit">Create</button>
-            <button type="reset" className="note-btn__reset" onClick={this.onResetHandler}><RiEraserLine /></button>
+            <button type="submit" className="note-btn__submit" aria-label="Create Note Button">Create</button>
+            <button type="reset" className="note-btn__reset" aria-label="Reset Button" onClick={this.onResetHandler}><RiEraserLine /></button>
           </div>
 
         </form>
