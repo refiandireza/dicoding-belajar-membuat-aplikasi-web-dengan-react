@@ -1,0 +1,77 @@
+body.theme--dark {
+    background-color: #202124;
+    color: white;
+}
+
+.theme--dark input, .theme--dark textarea {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.theme--dark input::placeholder, .theme--dark textarea::placeholder {
+    color: #fff;
+}
+
+.theme--dark .note-app__header {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
+
+.theme--dark .note-app__header img {
+    filter: brightness(0) invert(100%);
+}
+
+.theme--dark .note-input button {
+    background-color: #fff;
+    color: #202124;
+}
+
+.theme--dark .note-input button:hover {
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+}
+
+.theme--dark .btn--theme, .theme--dark .btn--scroll-top {
+    color: #fff;
+    border: 2px solid #fff;
+    background: #202124;
+}
+
+.theme--dark .notes--btn__tab {
+    border-bottom: 1px solid #fff;
+}
+
+.theme--dark .btn--tab.tab--active {
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+}
+
+.theme--dark .notes--btn__tab button {
+    background-color: #fff;
+    color: #202124;
+}
+
+.theme--dark .note--item {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
+
+.theme--dark .note-item__action button {
+    color: #fff;
+}
+
+.theme--dark .note-item__action button:hover {
+    background-color: #fff;
+    color: #202124;
+}
+
+.theme--dark .note-item__body {
+    color: #fff;
+}
+
+.theme--dark .note-app__footer {
+    background-color: #202124;
+    border-top: 1px solid #aaa;
+}
+
+.theme--dark .note-title__error--message, .theme--dark .note-body__error--message {
+    color: #fff
+}

@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1024px)  {
+    .note-app__body {
+        flex-direction: column;
+    }
+
+    .note-input, .notes-list__body {
+        width: 100%;
+    }
+
+    .notes-list__body {
+        padding: 50px;
+    }
+
+    .btn--theme {
+        bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .notes-list__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .notes-list__body, .note-input {
+        padding: 25px;
+    }
+
+    .note-app__body {
+        margin: 0 auto 100px;
+    }
+
+    .btn--theme {
+        bottom: 60px;
+        left: 25px;
+        font-size: 1.5em;
+    }
+
+    .btn--scroll-top {
+        left: 25px;
+        bottom: 120px;
+        font-size: 1.5em;
+    }
+}
